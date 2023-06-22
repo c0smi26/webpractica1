@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1practica</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <p>Задание 1.</p>
+    <form id = "1" onsubmit = "return checkForm1(this)" method = "post">
+    <label for = "Переменная">Переменная:</label>
+    <input type = "number" name = "number" id = "11" required>
+    <input type = "submit" name = "submit" value = "Отправить">
+    </form><hr>
+
+    <p>Задание 2.</p>
+    <label for="zodiac">Введите свой знак зодиака: </label>
+    <input type="text" id="zodiac">
+    <button onclick="checkZodiac()">Проверить</button>
+    <script src="script.js"></script><hr>
+
+    <p>Задание 3.</p>
+    <div>
+        <button onclick="loopFor()">Цикл For</button>
+        <button onclick="loopWhile()">Цикл While</button>
+        <button onclick="loopDoWhile()">Цикл Do-While</button>
+    
+        <ul id="list" type="square"></ul>
+        
+    </div><hr>
+
+    <p>Задание 4.</p>
+    <div id="myDiv">Вы заражены</div>
+    <button onclick="virus(1,10)">Skip</button><hr>
+
+    <p>Задание 5.</p>
+    <label for="number">Введите число больше 5: </label>
+    <input type="number" id="number">
+    <button onclick="checkNumber()">Проверить</button><hr>
+
+    <p>Задание 6.</p>
+    <div id="even-numbers"></div><hr>
+    
+
+    <p>Задание 7.</p>
+    <div id="odd-numbers"></div><hr>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
